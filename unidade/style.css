@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(jon-flobrant-lRSChvh1Mhs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner{
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.5rem;
+    width: 350px;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputs,
+.output-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem; 
+}
+
+.inputs label, .output-group{
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+select,
+input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    background-color: #eee;
+}
+
+button{
+    background-color: green;
+    padding: 10px 20px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    opacity: .7;
+    transition: .4s;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.output-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+    gap: 9px;
+}
+
+#message{   
+    font-size: .8rem;
+    color: green;
+    margin-top: 27px;
+    margin-bottom: .1rem;
+    text-align: center;
+}
